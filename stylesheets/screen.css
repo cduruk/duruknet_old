@@ -1,0 +1,20 @@
+/* Site-wide */
+
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2{
+  font-family: "Helvetica Neue","Trebuchet MS",Arial, sans-serif;
+}
+
+#wrapper {
+  margin: 20px 0 0 50px;
+  width: 400px;
+}
+
+.header {
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
