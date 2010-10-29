@@ -4,7 +4,7 @@ ssh_options[:forward_agent] = true
 set :application, "duruknet"
 set :scm, :git
 set :user, "cduruk"
-set :repository,  "git@github.com:cduruk/portfolio.git"
+set :repository,  "git@github.com:cduruk/duruknet.git"
 
 role :web, "linode"                          # Your HTTP server, Apache/etc
 role :app, "linode"                          # This may be the same as your `Web` server
