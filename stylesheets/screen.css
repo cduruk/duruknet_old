@@ -1,6 +1,6 @@
 /* Site-wide */
 
-body, h1, h2 {
+body, h1, h2, ul {
   margin: 0;
   padding: 0;
 }
@@ -17,4 +17,28 @@ p, h1, h2{
 .header {
   letter-spacing: -2px;
   text-transform: uppercase;
+}
+
+ul {
+  list-style:none;
+}
+
+ul#contact{
+  padding-top:10px;
+}
+
+a, a:visited {
+  color: #3575D0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li a {
+  font-size:0.875em;
 }
